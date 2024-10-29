@@ -10,7 +10,7 @@ const Banner = () => {
   }
   return (
     <div className='Banner'>
-        <div class="background-animation"><img src={background}/></div>
+        <div class="background-animation"><img src={background} alt='WavyLinesCircle'/></div>
       <div className='Left'>
         <h1 className='head'>&lt;Hello, world&gt;</h1>
         <h2>My name is Rohith. I build elegant, functional websites using modern web technologies.</h2>
