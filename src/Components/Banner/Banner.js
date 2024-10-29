@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Banner = () => {
   const navigate = useNavigate();
   const handleClick = ()=>{
-    navigate('/contact us')
+    navigate('/contact')
   }
   return (
     <div className='Banner'>
