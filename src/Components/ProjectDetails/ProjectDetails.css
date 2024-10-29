@@ -1,0 +1,217 @@
+.Project{
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+.ProjectDetails{
+    margin-right: 20%;
+}
+.Project-container{
+    display: flex;
+}
+.ProjectTitle{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 30px;
+}
+.Project-description{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 12px;
+    max-width: 100%;
+}
+.technologies-container h2{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 20px;
+}
+.features-container h2{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 20px;
+}
+.list{
+    color: #ffffff;
+    font-size: 13px;
+    text-align: start;
+}
+.screenshot-container{
+    max-width: 30%;
+    margin-top: 45px;
+    margin-right: 30px;
+}
+.screenshot-container h2{
+    color: #9e9e9e;
+    font-weight: normal;
+    text-align: center; 
+    font-size: 10px;
+}
+.screenshot-container img{
+    width:100%;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.modal {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .full-screen-image {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .Project-btn{
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: "Space Mono", system-ui;
+    border: 1px solid #9e9e9e;
+    font-weight: normal;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .Project-btn-mobile{
+    display: none;
+  }
+
+  @media (max-width:1280px) {
+    .Project{
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 70px;
+        margin-bottom: 50px;
+    } 
+
+  }
+  @media (max-width:1024px) {
+    .Project{
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 70px;
+        margin-bottom: 20px;
+    } 
+    .ProjectTitle{
+        font-size: 25px;
+    }
+    .Project-description{
+        font-size: 11px;
+    }
+    .technologies-container h2{
+        font-size: 18px;
+    }
+    .features-container h2{
+        font-size: 18px;
+    }
+    .list{
+        font-size: 11px;
+    }
+    .Project-btn{
+        font-size: 11px;
+      }
+
+  }
+  @media (max-width:800px) {
+    .Project{
+        margin-left: 10px;
+    } 
+    .ProjectTitle{
+        font-size: 20px;
+    }
+    .Project-description{
+        font-size: 10px;
+    }
+    .technologies-container h2{
+        font-size: 17px;
+    }
+    .features-container h2{
+        font-size: 17px;
+    }
+    .list{
+        font-size: 9px;
+    }
+    .Project-btn{
+        font-size: 9px;
+      }
+      .screenshot-container h2{
+        font-size: 8px;
+    }
+
+  }
+  @media (max-width:600px) {
+    .Project-container{
+        display: block;
+    }
+    .Project{
+        margin-top: 60px;
+        margin-left: 70px;
+        margin-right: 15px;
+        margin-bottom: 50px;
+    }
+    .ProjectDetails{
+        margin-right: 0%;
+    }
+    .Project{
+        margin-left: 10px;
+    } 
+    .ProjectTitle{
+        font-size: 15px;
+    }
+    .Project-description{
+        font-size: 8px;
+    }
+    .technologies-container h2{
+        font-size: 13px;
+    }
+    .features-container h2{
+        font-size: 13px;
+    }
+    .list{
+        font-size: 8px;
+    }
+    .Project-btn{
+        display: none;
+    }
+    .Project-btn-mobile{
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 9px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: "Space Mono", system-ui;
+    border: 1px solid #9e9e9e;
+    font-weight: normal;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+      .screenshot-container{
+        max-width: 100%;
+    }
+    .screenshot-container h2{ 
+        font-size: 8px;
+    }
+    .full-screen-image {
+        max-width: 100%;
+        max-height: 100%;
+      }
+  }
+
+ 

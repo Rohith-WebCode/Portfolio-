@@ -1,0 +1,219 @@
+.Projects h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.display-container{
+    margin-top: 20px;
+}
+.project-image{
+    width: 100%;
+    height: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    max-width: 1220px;
+    gap: 18px;
+    margin: 1px 0px 55px 9%;
+    position: relative;
+    padding-right: 113px;
+    padding-left: 10px;
+}
+.title-overlay h2{
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  align-content: center;
+}
+.title-overlay{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(55, 55, 55,0.5);
+    /* backdrop-filter: blur(10px); */
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;  
+}
+.IMG-container:hover .title-overlay {
+    height: 100%;
+  }
+
+.IMG-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 50%; 
+    transition: opacity 0.5s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+.button-container .button-left{
+    position: absolute;
+    font-size: 45px;
+    top: 40%;
+    font-weight: normal;
+    color: #ffffff;
+    left: -81px
+}
+.button-container .button-right{
+    right: 45px;
+    position: absolute;
+    top: 40%;
+    font-size: 45px;
+    color: #ffffff;
+}
+.dot-container{
+    text-align: center;
+    margin-top: 50px;
+}
+.dot{
+    width: 13px;
+    height: 10px;
+    display: inline-block;
+    background: transparent;
+    opacity: 5;
+    margin: 0 5px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+.dot.active {
+    opacity: 1;
+    width: 50px;
+    -webkit-transition-delay: 0s;
+    -o-transition-delay: 0s;
+     transition-delay: 0s;
+     /* opacity: .2; */
+      margin: 0 5px;
+      -webkit-border-radius: 20px;
+      border-radius: 20px;
+      -webkit-transition: opacity .5s, background-color .5s, width .5s;
+      -o-transition: opacity .5s, background-color .5s, width .5s;
+      transition: opacity .5s, background-color .5s, width .5s;
+      -webkit-transition-delay: .5s, .5s, 0s;
+      -o-transition-delay: .5s, .5s, 0s;
+      transition-delay: .5s, .5s, 0s;
+  }
+
+  @media (max-width:1280px) {
+    .container{
+        gap: 15px;
+        margin: 1px 0px 55px 10%;
+        position: relative;
+        /* padding-right: 113px;
+        padding-left: 10px; */
+    }
+    .title-overlay h2{
+        font-size: 15px;
+    }
+
+  }
+
+  @media (max-width:1024px) {
+    .container{
+        gap: 15px;
+        margin: 1px 0px 0px 14%;
+        position: relative;
+        /* padding-right: 113px;
+        padding-left: 10px; */
+    }
+    .title-overlay h2{
+        font-size: 9px;
+    }
+    .button-container .button-left{
+        font-size: 38px;
+    }
+    .button-container .button-right{
+        font-size: 38px;
+    }
+    .dot{
+        width: 11px;
+        height: 10px;
+    }
+    .dot.active {
+        width: 45px;
+      }
+    
+
+  }
+  @media (max-width:800px) {
+    .container{
+        gap: 8px;
+        margin: 1px 0px 0px 14%;
+        position: relative;
+        /* padding-right: 113px;
+        padding-left: 10px; */
+    }
+    .IMG-container{
+        flex: 0 0 55%; 
+    }
+    .title-overlay h2{
+        font-size: 7px;
+    }
+    .button-container .button-left{
+        font-size: 35px;
+    }
+    .button-container .button-right{
+        font-size: 35px;
+        right: 36px;
+    }
+    .dot{
+        width: 10px;
+        height: 9px;
+    }
+    .dot.active {
+        width: 35px;
+      }
+    
+
+  }
+  @media (max-width:600px) {
+    .mobile-project-img{
+        width: 100%;
+        height: 100%;
+    }
+    .Mobile-design{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+        justify-items: center;
+    }
+    .project-item-mobile{
+        position: relative;
+        overflow: hidden;
+    }
+    .project-item-mobile:hover .title-overlay {
+        height: 100%;
+      }
+      .see-more-btn {
+        margin-top: 20px;
+        letter-spacing: 1px;
+        font-size: 11px;
+        padding: 10px;
+        font-family: "Space Mono", system-ui;
+        border: 1px solid #9e9e9e;
+        font-weight: normal;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .see-more-btn:hover {
+        border-color: #FFFFFF;
+      }
+    
+  }

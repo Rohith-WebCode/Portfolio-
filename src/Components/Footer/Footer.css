@@ -1,0 +1,39 @@
+.Footer{
+    color: #9e9e9e;
+    display: flex;
+    /* margin-top: 119px; */
+    align-items: center;
+    overflow: hidden;
+}
+.email{
+    display: flex; 
+    gap: 6px;
+    align-items: center;
+    overflow: hidden;
+}
+.Footer a{
+    text-decoration: none;
+    color: #9e9e9e;
+}
+.email h1{
+    font-size: 14px;
+    font-weight: normal;
+}
+.icons{
+    display: flex;
+    position: absolute;
+    gap: 13px;
+    font-size: 14px;
+    right: 30px;
+    text-decoration: none;
+}
+.icons a{
+    color: inherit;
+}
+@media (max-width:500px) {
+.Footer{
+    display: none;
+}
+}
+
+  
