@@ -21,7 +21,7 @@ const ProjectDetails = () => {
     console.log(selectedImage);
 
     const handleClick = ()=>{
-      navigate('/contact us')
+      navigate('/contact')
     }
     
     
